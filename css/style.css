@@ -1,0 +1,117 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar {
+    background-color: rgb(248, 234, 207);
+    /* position: fixed; */
+    display: flex;
+    overflow: hidden;
+    height: 45px;
+    width: 100%;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 7px 18px;
+    margin: 5px 7px 5px 10px;
+    float: left;
+    font-size: 21px;
+  }
+  
+  
+  .navbar a:hover {
+    color: black;
+    border-radius: 13px;
+    background-image: linear-gradient(
+      68.2deg,
+      rgba(255, 202, 88, 1) 0%,
+      rgba(139, 73, 255, 1) 100.2%
+    );
+  }
+
+  .main{
+    display: flex;
+    flex-direction: column;
+    height: 597px;
+    background-color: rgb(231, 236, 213);
+  }
+
+  .content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .content .box-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+  }
+
+  .content .box-left h1{
+    font-size: 34px;
+    margin: 5px 0px;
+  }
+  
+  .content .box-left h3{
+    font-size: 15px;
+    margin: 10px 0px;
+  }
+
+  .content .box-left h4{
+    font-size: 15px;
+    text-align: center;
+    margin: 10px 0px;
+  }
+
+  .content .box-right{
+    width: 100%;
+    height: 300px;
+  }
+
+  .content .box-right img{
+    height: 597px;
+    width: 100%;
+  }
+
+  .content.social-media .icon{
+    display: flex;
+  }
+
+  /* .content .box h1{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  } */
+
+  
+  /* #home-courses{
+      margin-left: 3px;
+      margin-right: 3px;
+      outline: hotpink;
+      height: 300px;
+      display: flex;
+  }
+
+  header #home-courses{
+    margin-top: 45px;
+  }
+  .home-courses{
+    display: flex;
+  }
+  .home-courses .box{
+    margin: 8px;
+  padding: 25px;
+  border-radius: 15px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid gray;
+  box-shadow: 0px 12px 25px 0px rgb(0 199 157 / 35%);
+  height: 300px;
+  width: 100%;
+  } */
