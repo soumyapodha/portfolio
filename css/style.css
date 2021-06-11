@@ -62,13 +62,21 @@
   
   .content .box-left h3{
     font-size: 15px;
-    margin: 10px 0px;
+    margin-left: 104px;
+    margin-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
 
-  .content .box-left h4{
-    font-size: 15px;
-    text-align: center;
-    margin: 10px 0px;
+  .content .box-left button{
+    font-size: 23px;
+    margin: 15px;
+    padding: 3px 30px;
+    border-radius: 15px; 
+    font-family: "GothamRounded-Medium";
+    box-shadow: 0px 12px 25px 0px rgb(0 199 157 / 35%);
+    transition: 0.2s linear;
+    border: none;
+    cursor: pointer;
   }
 
   .content .box-right{
@@ -106,6 +114,17 @@
     padding: 3px;
     border: none;
     background: none;
+  }
+
+  .content-letter{
+    height: 500px;
+    width: 100%;
+  }
+
+  .content-letter p{
+    margin: 0px 10px 0px 10px;
+    text-align: center;
+    padding: 8px 10px 8px 10px;
   }
   /* .content .box h1{
     text-align: center;
