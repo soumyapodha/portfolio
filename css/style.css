@@ -26,10 +26,10 @@
     color: black;
     border-radius: 13px;
     background-image: linear-gradient(
-      68.2deg,
-      rgba(255, 202, 88, 1) 0%,
-      rgba(139, 73, 255, 1) 100.2%
-    );
+    68.2deg,
+    rgba(255, 202, 88, 1) 0%,
+    rgba(139, 73, 255, 1) 100.2%
+  );
   }
 
   .main{
@@ -43,7 +43,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 550px;
   }
 
   .content .box-left{
@@ -53,6 +52,7 @@
     align-items: center;
     width: 100%;
     padding: 60px;
+    height: 300px;
   }
 
   .content .box-left h1{
@@ -61,21 +61,8 @@
   }
   
   .content .box-left h3{
-    font-size: 15px;
-    margin-top: 10px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-  }
-
-  .content .box-left button{
-    font-size: 23px;
-    margin: 15px;
-    padding: 3px 30px;
-    border-radius: 15px; 
-    font-family: "GothamRounded-Medium";
-    box-shadow: 0px 12px 25px 0px rgb(0 199 157 / 35%);
-    transition: 0.2s linear;
-    border: none;
-    cursor: pointer;
+    font-size: 19px;
+    margin: 10px 0px;
   }
 
   .content .box-right{
@@ -92,19 +79,66 @@
     border-radius: 250px;
 }
 
-  .content .box-right .circle img{
+  .content .box-right img{
     height: 500px; 
     width: 81%;
     margin-left: 20px;
   }
 
-  .content .social-media .icon{
-    display: flex;
-    flex-direction: row;
+  button{
+    font-size: 23px;
+    padding: 3px;
+    border: none;
+    background: none;
+    display: inline;
+    background-color: #4158d0;
+    background-image: linear-gradient(
+    181deg,
+    rgba(225, 109, 245, 1) 6.9%,
+    rgba(78, 248, 231, 1) 112.8%
+  );
+    cursor: pointer;
+    padding: 8px 38px;
+    border-radius: 30px;
+    border-color: #c850c0;
+    outline: none;
+    border: none;
+    font-family: "GothamRounded-Medium";
+    box-shadow: 0px 12px 25px 0px rgb(0 199 157 / 35%);
+    transition: 0.2s linear;
   }
 
-  .content .social-media .icon .cover{
-    margin: 7px 10px;
-    padding: 4px 4px;
-    font-size: 25px;
+  button a{
+    text-decoration: none;
   }
+  /* .content .box h1{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  } */
+
+  
+  /* #home-courses{
+      margin-left: 3px;
+      margin-right: 3px;
+      outline: hotpink;
+      height: 300px;
+      display: flex;
+      
+      header #home-courses{
+  }
+    margin-top: 45px;
+  }
+  .home-courses{
+    display: flex;
+  }
+  .home-courses .box{
+    margin: 8px;
+  padding: 25px;
+  border-radius: 15px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid gray;
+  box-shadow: 0px 12px 25px 0px rgb(0 199 157 / 35%);
+  height: 300px;
+  width: 100%;
+  } */

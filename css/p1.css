@@ -31,11 +31,6 @@
       rgba(139, 73, 255, 1) 100.2%
     ); 
   }
-
-  a:hover,
-a:focus {
-  background-size: 0 0.1em, 100% 0.1em;
-}
   
 
 section{
@@ -46,14 +41,14 @@ section{
     color: white;
 }
 
-.btn-cover{
+.cover-heading{
     height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.btn-cover h2{
+.cover-heading h2{
     font-size: 40px;
 }
 
