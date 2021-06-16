@@ -58,6 +58,8 @@ body{
 
 .cover-heading h2{
     font-size: 40px;
+    text-decoration: underline;
+    text-decoration-color: #c3c3c3;
 }
 
 p{
@@ -66,8 +68,18 @@ p{
     font-family: GothamRounded-Medium;
 }
 
+.titlepoint h3{
+  height: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: underline;
+  text-decoration-color: #dabcbc;
+}
+
 .main .sample{
-  height: 100vh;
+  height: 65vh;
   width: 100%;
   display: flex;
   justify-content: center;
