@@ -41,17 +41,63 @@
 
   .main{
       width: 100%;
-      border: 2px solid black;
-      height: 500px;
   }
 
   .main .main-box{
-    margin: 0px 20px;
+    margin: 15px 20px;
     padding: 0px 20px;
-    border: 2px solid red;
     display: flex;
     flex-direction: row;
   }
-  .main .main-box .box{
-    
+  .main .main-box .box-left{
+    width: 30%;
+    margin: 0px 30px 0px 0px;
+    padding-top: 20px;
+    border: 2px solid green;
   }
+
+  .main .main-box .box-left .box{
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .main .main-box .box-left .box h3{
+    margin: 5px 0px;
+    font-family: 'Viaoda Libre', cursive;
+  }
+
+  .main .main-box .box-left .box .circle{
+    height: 150px;
+    width: 150px;
+    border-radius: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .main .main-box .box-left .box .circle img{
+    height: 150px;
+    width: 150px;
+    border-radius: 80px;
+  }
+
+  .main .main-box .box-right{
+    margin: 0px 30px 0px 0px;
+    padding: 0px 20px;
+  }
+
+  .main .main-box .box-right .project-container{
+    margin: 5px 0px;
+  }
+
+  .main .main-box .box-right .project-container .project-container-box{
+    height: 100px;
+    border: 1px solid gray;
+    margin: 20px 0px;
+    padding: 5px 40px;
+    border-radius: 5px;
+}
+  
